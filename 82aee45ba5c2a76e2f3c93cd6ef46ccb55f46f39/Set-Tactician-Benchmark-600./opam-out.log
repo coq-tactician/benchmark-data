@@ -1,0 +1,11 @@
+Collecting git+https://github.com/IBM/graph2tac.git@fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f
+  Cloning https://github.com/IBM/graph2tac.git (to revision fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f) to /tmp/pip-req-build-mtx12q54
+  Resolved https://github.com/IBM/graph2tac.git to commit fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pytactician@ git+https://git@github.com/coq-tactician/coq-tactician-api@301cd02019189601b7089ef712d6bed8d6a91e60
+  Using cached pytactician-16.0.0-cp310-cp310-linux_x86_64.whl
