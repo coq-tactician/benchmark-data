@@ -1,0 +1,13 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/IBM/graph2tac.git /tmp/pip-req-build-qzphspkw
+  Running command git rev-parse -q --verify 'sha^fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f'
+  Running command git fetch -q https://github.com/IBM/graph2tac.git fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f
+  Running command git checkout -q fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f
+  Running command git clone --filter=blob:none --quiet 'https://****@github.com/coq-tactician/coq-tactician-api' /tmp/pip-install-879bya50/pytactician_f33da3ba50684a2dbdf5b7464d857319
+  Running command git rev-parse -q --verify 'sha^301cd02019189601b7089ef712d6bed8d6a91e60'
+  Running command git fetch -q 'https://****@github.com/coq-tactician/coq-tactician-api' 301cd02019189601b7089ef712d6bed8d6a91e60
+  Running command git checkout -q 301cd02019189601b7089ef712d6bed8d6a91e60
+  Running command git submodule update --init --recursive -q
+ERROR: Wheel 'crcmod' located at /u/jasonrute/.cache/pip/wheels/85/4c/07/72215c529bd59d67e3dac29711d7aba1b692f543c808ba9e86/crcmod-1.7-cp310-cp310-linux_x86_64.whl is invalid.
+
+[notice] A new release of pip available: 22.2.2 -> 24.3.1
+[notice] To update, run: pip install --upgrade pip
