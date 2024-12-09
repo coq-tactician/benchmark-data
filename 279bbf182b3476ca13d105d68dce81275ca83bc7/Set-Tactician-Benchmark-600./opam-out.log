@@ -1,0 +1,191 @@
+Collecting git+https://github.com/IBM/graph2tac.git@fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f
+  Cloning https://github.com/IBM/graph2tac.git (to revision fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f) to /tmp/pip-req-build-wnjoqaqn
+  Resolved https://github.com/IBM/graph2tac.git to commit fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pytactician@ git+https://git@github.com/coq-tactician/coq-tactician-api@301cd02019189601b7089ef712d6bed8d6a91e60
+  Cloning https://****@github.com/coq-tactician/coq-tactician-api (to revision 301cd02019189601b7089ef712d6bed8d6a91e60) to /tmp/pip-install-gt3d4tob/pytactician_2f1dbaf21df043da8d46ecedb332f449
+  Resolved https://****@github.com/coq-tactician/coq-tactician-api to commit 301cd02019189601b7089ef712d6bed8d6a91e60
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pytest
+  Using cached pytest-8.3.4-py3-none-any.whl (343 kB)
+Collecting psutil
+  Using cached psutil-6.1.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (287 kB)
+Collecting graphviz
+  Using cached graphviz-0.20.3-py3-none-any.whl (47 kB)
+Collecting tensorflow_gnn<0.3,>=0.2.0
+  Using cached tensorflow_gnn-0.2.1-py3-none-any.whl (364 kB)
+Collecting numpy
+  Using cached numpy-2.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.4 MB)
+Collecting protobuf<4.0
+  Using cached protobuf-3.20.3-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.1 MB)
+Collecting tensorflow<2.13,>=2.12.0
+  Using cached tensorflow-2.12.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (585.9 MB)
+Collecting pytest-asyncio
+  Using cached pytest_asyncio-0.24.0-py3-none-any.whl (18 kB)
+Collecting pyyaml
+  Using cached PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (751 kB)
+Collecting tqdm
+  Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+Collecting keras>=2.8
+  Using cached keras-3.7.0-py3-none-any.whl (1.2 MB)
+Collecting pycapnp
+  Using cached pycapnp-2.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.9 MB)
+Collecting absl-py
+  Using cached absl_py-2.1.0-py3-none-any.whl (133 kB)
+Collecting h5py
+  Using cached h5py-3.12.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.3 MB)
+Collecting optree
+  Using cached optree-0.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (381 kB)
+Collecting packaging
+  Using cached packaging-24.2-py3-none-any.whl (65 kB)
+Collecting ml-dtypes
+  Using cached ml_dtypes-0.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.5 MB)
+Collecting namex
+  Using cached namex-0.0.8-py3-none-any.whl (5.8 kB)
+Collecting rich
+  Using cached rich-13.9.4-py3-none-any.whl (242 kB)
+Collecting tensorflow-estimator<2.13,>=2.12.0
+  Using cached tensorflow_estimator-2.12.0-py2.py3-none-any.whl (440 kB)
+Collecting grpcio<2.0,>=1.24.3
+  Using cached grpcio-1.68.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.9 MB)
+Collecting termcolor>=1.1.0
+  Using cached termcolor-2.5.0-py3-none-any.whl (7.8 kB)
+Collecting libclang>=13.0.0
+  Using cached libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl (24.5 MB)
+Collecting google-pasta>=0.1.1
+  Using cached google_pasta-0.2.0-py3-none-any.whl (57 kB)
+Collecting numpy
+  Using cached numpy-1.24.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+Collecting astunparse>=1.6.0
+  Using cached astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting flatbuffers>=2.0
+  Using cached flatbuffers-24.3.25-py2.py3-none-any.whl (26 kB)
+Collecting keras>=2.8
+  Using cached keras-2.12.0-py2.py3-none-any.whl (1.7 MB)
+Requirement already satisfied: setuptools in ./venv/lib/python3.10/site-packages (from tensorflow<2.13,>=2.12.0->graph2tac==1.0.4) (63.2.0)
+Collecting opt-einsum>=2.3.2
+  Using cached opt_einsum-3.4.0-py3-none-any.whl (71 kB)
+Collecting tensorflow-io-gcs-filesystem>=0.23.1
+  Using cached tensorflow_io_gcs_filesystem-0.37.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.1 MB)
+Collecting wrapt<1.15,>=1.11.0
+  Using cached wrapt-1.14.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (77 kB)
+Collecting tensorboard<2.13,>=2.12
+  Using cached tensorboard-2.12.3-py3-none-any.whl (5.6 MB)
+Collecting jax>=0.3.15
+  Using cached jax-0.4.36-py3-none-any.whl (2.2 MB)
+Collecting gast<=0.4.0,>=0.2.1
+  Using cached gast-0.4.0-py3-none-any.whl (9.8 kB)
+Collecting six>=1.12.0
+  Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting typing-extensions<4.6.0,>=3.6.6
+  Using cached typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting networkx
+  Using cached networkx-3.4.2-py3-none-any.whl (1.7 MB)
+Collecting pyarrow
+  Using cached pyarrow-18.1.0-cp310-cp310-manylinux_2_28_x86_64.whl (40.1 MB)
+Collecting apache-beam
+  Using cached apache_beam-2.61.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (15.8 MB)
+Collecting sanic-ext==23.6.0
+  Using cached sanic_ext-23.6.0-py3-none-any.whl (94 kB)
+Collecting Jinja2
+  Using cached jinja2-3.1.4-py3-none-any.whl (133 kB)
+Collecting sanic==23.6.0
+  Using cached sanic-23.6.0-py3-none-any.whl (202 kB)
+Collecting inflection
+  Using cached inflection-0.5.1-py2.py3-none-any.whl (9.5 kB)
+Collecting immutables
+  Using cached immutables-0.21-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (96 kB)
+Collecting websockets>=10.0
+  Using cached websockets-14.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (168 kB)
+Collecting sanic-routing>=23.6.0
+  Using cached sanic_routing-23.12.0-py3-none-any.whl (25 kB)
+Collecting multidict<7.0,>=5.0
+  Using cached multidict-6.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (124 kB)
+Collecting aiofiles>=0.6.0
+  Using cached aiofiles-24.1.0-py3-none-any.whl (15 kB)
+Collecting tracerite>=1.0.0
+  Using cached tracerite-1.1.1-py3-none-any.whl (12 kB)
+Collecting html5tagger>=1.2.1
+  Using cached html5tagger-1.3.0-py3-none-any.whl (10 kB)
+Collecting httptools>=0.0.10
+  Using cached httptools-0.6.4-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (442 kB)
+Collecting uvloop>=0.15.0
+  Using cached uvloop-0.21.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.8 MB)
+Collecting ujson>=1.35
+  Using cached ujson-5.10.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (53 kB)
+Collecting iniconfig
+  Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting pluggy<2,>=1.5
+  Using cached pluggy-1.5.0-py3-none-any.whl (20 kB)
+Collecting exceptiongroup>=1.0.0rc8
+  Using cached exceptiongroup-1.2.2-py3-none-any.whl (16 kB)
+Collecting tomli>=1
+  Using cached tomli-2.2.1-py3-none-any.whl (14 kB)
+Collecting wheel<1.0,>=0.23.0
+  Using cached wheel-0.45.1-py3-none-any.whl (72 kB)
+Collecting jaxlib<=0.4.36,>=0.4.36
+  Using cached jaxlib-0.4.36-cp310-cp310-manylinux2014_x86_64.whl (100.3 MB)
+Collecting scipy>=1.10
+  Using cached scipy-1.14.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (41.2 MB)
+Collecting google-auth<3,>=1.6.3
+  Using cached google_auth-2.36.0-py2.py3-none-any.whl (209 kB)
+Collecting google-auth-oauthlib<1.1,>=0.5
+  Using cached google_auth_oauthlib-1.0.0-py2.py3-none-any.whl (18 kB)
+Collecting markdown>=2.6.8
+  Using cached Markdown-3.7-py3-none-any.whl (106 kB)
+Collecting requests<3,>=2.21.0
+  Using cached requests-2.32.3-py3-none-any.whl (64 kB)
+Collecting tensorboard-data-server<0.8.0,>=0.7.0
+  Using cached tensorboard_data_server-0.7.2-py3-none-any.whl (2.4 kB)
+Collecting werkzeug>=1.0.1
+  Using cached werkzeug-3.1.3-py3-none-any.whl (224 kB)
+Collecting proto-plus<2,>=1.7.1
+  Using cached proto_plus-1.25.0-py3-none-any.whl (50 kB)
+Collecting pytz>=2018.3
+  Downloading pytz-2024.2-py2.py3-none-any.whl (508 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 508.0/508.0 kB 20.0 MB/s eta 0:00:00
+Collecting objsize<0.8.0,>=0.6.1
+  Downloading objsize-0.7.0-py3-none-any.whl (11 kB)
+Collecting jsonpickle<4.0.0,>=3.0.0
+  Downloading jsonpickle-3.4.2-py3-none-any.whl (46 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.3/46.3 kB 6.6 MB/s eta 0:00:00
+Collecting pydot<2,>=1.2.0
+  Using cached pydot-1.4.2-py2.py3-none-any.whl (21 kB)
+Collecting zstandard<1,>=0.18.0
+  Downloading zstandard-0.23.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 128.1 MB/s eta 0:00:00
+Collecting redis<6,>=5.0.0
+  Using cached redis-5.2.1-py3-none-any.whl (261 kB)
+Collecting cloudpickle~=2.2.1
+  Using cached cloudpickle-2.2.1-py3-none-any.whl (25 kB)
+Collecting httplib2<0.23.0,>=0.8
+  Downloading httplib2-0.22.0-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.9/96.9 kB 13.7 MB/s eta 0:00:00
+Collecting fasteners<1.0,>=0.3
+  Downloading fasteners-0.19-py3-none-any.whl (18 kB)
+Collecting orjson<4,>=3.9.7
+  Downloading orjson-3.10.12-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (131 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 131.3/131.3 kB 17.7 MB/s eta 0:00:00
+Collecting fastavro<2,>=0.23.6
+  Using cached fastavro-1.9.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting pyarrow
+  Using cached pyarrow-16.1.0-cp310-cp310-manylinux_2_28_x86_64.whl (40.8 MB)
+Collecting grpcio<2.0,>=1.24.3
+  Downloading grpcio-1.65.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.7/5.7 MB 123.6 MB/s eta 0:00:00
+Collecting python-dateutil<3,>=2.8.0
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting jsonschema<5.0.0,>=4.0.0
+  Using cached jsonschema-4.23.0-py3-none-any.whl (88 kB)
+Collecting crcmod<2.0,>=1.7
+  Using cached crcmod-1.7-cp310-cp310-linux_x86_64.whl
