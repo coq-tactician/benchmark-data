@@ -1,0 +1,8 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/IBM/graph2tac.git /tmp/pip-req-build-7e3n3arm
+  Running command git rev-parse -q --verify 'sha^fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f'
+  Running command git fetch -q https://github.com/IBM/graph2tac.git fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f
+  Running command git checkout -q fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f
+ERROR: Wheel 'pytactician' located at /u/jasonrute/.cache/pip/wheels/d7/f6/be/4055670fb799ee878f9b6878515428c24885843ec1376b3055/pytactician-16.0.0-cp310-cp310-linux_x86_64.whl is invalid.
+
+[notice] A new release of pip available: 22.2.2 -> 24.3.1
+[notice] To update, run: pip install --upgrade pip
