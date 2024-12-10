@@ -1,0 +1,17 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/IBM/graph2tac.git /tmp/pip-req-build-ismaau96
+  Running command git rev-parse -q --verify 'sha^fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f'
+  Running command git fetch -q https://github.com/IBM/graph2tac.git fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f
+  Running command git checkout -q fa86193e0bed02bf8a31f8fb62c76857dbfd7f9f
+  Running command git clone --filter=blob:none --quiet 'https://****@github.com/coq-tactician/coq-tactician-api' /tmp/pip-install-x9vu08b4/pytactician_9342d2e4b5724e7fb0b7aabc6f7f354e
+  Running command git rev-parse -q --verify 'sha^301cd02019189601b7089ef712d6bed8d6a91e60'
+  Running command git fetch -q 'https://****@github.com/coq-tactician/coq-tactician-api' 301cd02019189601b7089ef712d6bed8d6a91e60
+  Running command git checkout -q 301cd02019189601b7089ef712d6bed8d6a91e60
+  Running command git submodule update --init --recursive -q
+
+[notice] A new release of pip available: 22.2.2 -> 24.3.1
+[notice] To update, run: pip install --upgrade pip
+[WARNING] /u/jasonrute/.opam exists and is not empty
+[WARNING] Failed checks on coq-graph2tac package definition from source at git+ssh://git@github.com/coq-tactician/coq-graph2tac-trained#61129c990509ce3ac76ae2512a60dc4b26eba66f:
+           warning 68: Missing field 'license'
+[WARNING] Failed checks on coq-tactician-api package definition from source at git+ssh://git@github.com/coq-tactician/coq-tactician-api.git#301cd02019189601b7089ef712d6bed8d6a91e60:
+           warning 68: Missing field 'license'
