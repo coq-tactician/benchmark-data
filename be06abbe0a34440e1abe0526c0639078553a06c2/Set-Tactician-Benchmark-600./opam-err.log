@@ -1,0 +1,12 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/IBM/graph2tac.git /tmp/pip-req-build-utv4l7ke
+  Running command git rev-parse -q --verify 'sha^1805230d43032687bc5102c723bd16598f6c594d'
+  Running command git fetch -q https://github.com/IBM/graph2tac.git 1805230d43032687bc5102c723bd16598f6c594d
+  Running command git checkout -q 1805230d43032687bc5102c723bd16598f6c594d
+
+[notice] A new release of pip available: 22.2.2 -> 24.3.1
+[notice] To update, run: pip install --upgrade pip
+[WARNING] /u/jasonrute/.opam exists and is not empty
+[WARNING] Failed checks on coq-graph2tac package definition from source at git+ssh://git@github.com/coq-tactician/coq-graph2tac-trained#be06abbe0a34440e1abe0526c0639078553a06c2:
+           warning 68: Missing field 'license'
+[WARNING] Failed checks on coq-tactician-api package definition from source at git+ssh://git@github.com/coq-tactician/coq-tactician-api.git#301cd02019189601b7089ef712d6bed8d6a91e60:
+           warning 68: Missing field 'license'
