@@ -1,0 +1,14 @@
+Proceed? [y/n] y
+Checking for available remotes: rsync and local, git.
+  - you won't be able to use mercurial repositories unless you install the hg command on your system.
+  - you won't be able to use darcs repositories unless you install the darcs command on your system.
+
+
+<><> Fetching repository information ><><><><><><><><><><><><><><><><><><><><><>
+[coq-core-dev] Initialised
+[coq-extra-dev] Initialised
+[custom-archive] Initialised
+[coq-released] Initialised
+[default] Initialised
+[coq-tactician.dev] synchronised (file:///home/lasse/Documents/Projects/Tactician/develop/coq-tactician#f267afe31ab82b071d3f03d08bc4a6595c30b1d2)
+coq-tactician is now pinned to file:///home/lasse/Documents/Projects/Tactician/develop/coq-tactician#f267afe31ab82b071d3f03d08bc4a6595c30b1d2 (version dev)
