@@ -1,1 +1,25 @@
 [WARNING] /home/lasse/.opam exists and is not empty
+[ERROR] The compilation of ocaml-base-compiler.4.12.1 failed at "make -j15".
+
+#=== ERROR while compiling ocaml-base-compiler.4.12.1 =========================#
+# context              2.2.1 | linux/x86_64 |  | https://opam.ocaml.org#0d013e603b5ebf0e9b404e10d5a6839f226e1739
+# path                 /tmp/tactician.tmp.ItVh4E/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1
+# command              /usr/bin/make -j15
+# exit-code            2
+# env-file             /tmp/opam-lasse-634608/ocaml-base-compiler-634608-f6bbbf.env
+# output-file          /tmp/opam-lasse-634608/ocaml-base-compiler-634608-f6bbbf.out
+### output ###
+# [...]
+# caml/prims.h:33:23: error: too many arguments to function ‘(value (*)(void))*(caml_prim_table.contents + (sizetype)((long unsigned int)*pc * 8))’; expected 0, have 2
+#    33 | #define Primitive(n) ((c_primitive)(caml_prim_table.contents[n]))
+#       |                      ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# interp.c:967:14: note: in expansion of macro ‘Primitive’
+#   967 |       accu = Primitive(*pc)(sp + 2, nargs);
+#       |              ^~~~~~~~~
+# make[2]: *** [Makefile:367: interp.b.o] Error 1
+# make[2]: *** Waiting for unfinished jobs....
+# make[2]: Leaving directory '/tmp/tactician.tmp.ItVh4E/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1/runtime'
+# make[1]: *** [Makefile:141: coldstart] Error 2
+# make[1]: Leaving directory '/tmp/tactician.tmp.ItVh4E/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1'
+# make: *** [Makefile:274: world.opt] Error 2
+
