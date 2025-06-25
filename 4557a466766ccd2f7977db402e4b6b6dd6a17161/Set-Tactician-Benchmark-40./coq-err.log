@@ -1,0 +1,87 @@
+File "./theories/Floats/FloatLemmas.v", line 11, characters 2-8:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/Logic/HLevels.v", line 57, characters 2-9:
+Warning: Benchmarking error: Forked process exited with signal -10
+File "./theories/Init/Byte.v", line 815, characters 7-33:
+Warning:
+Benchmarking error: Anomaly
+                    "File "src/ltacrecord.ml", line 549, characters 61-67: Assertion failed."
+Please report at http://coq.inria.fr/bugs/.
