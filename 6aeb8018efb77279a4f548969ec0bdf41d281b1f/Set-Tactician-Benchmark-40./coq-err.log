@@ -18,9 +18,6 @@ intros s;
    (intros y;
      (intros _tmp_tactician0; (intropattern subst -> _tmp_tactician0; idtac))))
 
-Fatal error: out of memory
-File "./theories/Numbers/DecimalN.v", line 67, characters 1-33:
-Warning: Benchmarking error: Forked process exited with signal -1
 File "./theories/Logic/WKL.v", line 46, characters 49-62:
 Warning:
 Tactician found a bug in it's tactical decomposition. Please report.
@@ -139,11 +136,6 @@ intros _tmp_tactician0; (first
  | intro_equality_clear _tmp_tactician0; idtac
  | intro_equality_hnf _tmp_tactician0; idtac ])
 
-File "./theories/ZArith/Znat.v", line 646, characters 1-63:
-Warning:
-Benchmarking error: Anomaly
-                    "File "src/ltacrecord.ml", line 425, characters 61-67: Assertion failed."
-Please report at http://coq.inria.fr/bugs/.
 File "./theories/Lists/List.v", line 264, characters 6-22:
 Warning:
 Tactician found a bug in it's tactical decomposition. Please report.
@@ -441,6 +433,18 @@ intros Hf;
        | intropattern subst -> _tmp_tactician4; idtac;
           try clear _tmp_tactician2 ])))
 
+File "./theories/Lists/List.v", line 264, characters 6-22:
+Warning:
+Tactician found a bug in it's tactical decomposition. Please report.
+intros a b [=]
+intros a;
+ (intros b;
+   (intros _tmp_tactician0; (first
+     [ discriminate _tmp_tactician0; idtac
+     | injection _tmp_tactician0 as; idtac
+     | intro_equality_clear _tmp_tactician0; idtac
+     | intro_equality_hnf _tmp_tactician0; idtac ])))
+
 File "./theories/PArith/BinPos.v", line 1631, characters 0-38:
 Warning:
 Tactician found a bug in it's tactical decomposition. Please report.
@@ -463,28 +467,4 @@ intros Hf;
           try clear _tmp_tactician2
        | intropattern subst -> _tmp_tactician4; idtac;
           try clear _tmp_tactician2 ])))
-
-File "./theories/Lists/List.v", line 264, characters 6-22:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-intros a b [=]
-intros a;
- (intros b;
-   (intros _tmp_tactician0; (first
-     [ discriminate _tmp_tactician0; idtac
-     | injection _tmp_tactician0 as; idtac
-     | intro_equality_clear _tmp_tactician0; idtac
-     | intro_equality_hnf _tmp_tactician0; idtac ])))
-
-File "./theories/Lists/List.v", line 264, characters 6-22:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-intros a b [=]
-intros a;
- (intros b;
-   (intros _tmp_tactician0; (first
-     [ discriminate _tmp_tactician0; idtac
-     | injection _tmp_tactician0 as; idtac
-     | intro_equality_clear _tmp_tactician0; idtac
-     | intro_equality_hnf _tmp_tactician0; idtac ])))
 
