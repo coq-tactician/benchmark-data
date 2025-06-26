@@ -78,10 +78,10 @@ Tactic could not be properly discharged: match goal with
                                                 simpl; 
                                                 destruct 3
                                          end
-File "./theories/Logic/HLevels.v", line 57, characters 2-9:
-Warning: Benchmarking error: Forked process exited with signal -10
-File "./theories/Init/Byte.v", line 815, characters 7-33:
+File "./theories/ZArith/auxiliary.v", line 91, characters 1-16:
 Warning:
 Benchmarking error: Anomaly
                     "File "src/ltacrecord.ml", line 549, characters 61-67: Assertion failed."
 Please report at http://coq.inria.fr/bugs/.
+File "./theories/Logic/HLevels.v", line 57, characters 2-9:
+Warning: Benchmarking error: Forked process exited with signal -10
