@@ -1,0 +1,104 @@
+File "./theories/Reals/Rgeom.v", line 143, characters 2-79:
+Warning:
+Benchmarking error: Anomaly
+                    "File "src/ltacrecord.ml", line 550, characters 61-67: Assertion failed."
+Please report at http://coq.inria.fr/bugs/.
+File "./theories/Reals/Rfunctions.v", line 53, characters 2-220:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./plugins/micromega/ZMicromega.v", line 1135, characters 2-25:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./plugins/micromega/Refl.v", line 71, characters 2-14:
+Warning:
+Benchmarking error: Anomaly
+                    "File "src/ltacrecord.ml", line 550, characters 61-67: Assertion failed."
+Please report at http://coq.inria.fr/bugs/.
+File "./theories/FSets/FMapList.v", line 1099, characters 8-62:
+Warning:
+Benchmarking error: Anomaly
+                    "File "src/ltacrecord.ml", line 550, characters 61-67: Assertion failed."
+Please report at http://coq.inria.fr/bugs/.
+File "./theories/Numbers/NatInt/NZBase.v", line 74, characters 0-63:
+Warning: Benchmarking error: Forked process exited with signal -10
+File "./theories/Numbers/NatInt/NZDiv.v", line 267, characters 0-25:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/Init/Tactics.v", line 189, characters 0-45:
+Warning:
+now idtac((TacAlias Coq.Init.Tactics.now_#_62200C10 ((TacThen (TacArg (CAst (Reference (CAst t)))) (TacArg (CAst (TacCall Coq.Init.Tactics.easy (CAst Located)))))) (CAst (Tacexp (TacId)))))
