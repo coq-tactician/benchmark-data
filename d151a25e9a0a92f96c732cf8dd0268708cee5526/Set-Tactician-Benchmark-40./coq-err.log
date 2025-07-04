@@ -1,0 +1,83 @@
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1537, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./plugins/ssr/ssrfun.v", line 728, characters 7-67:
+Warning: Benchmarking error: Forked process exited with signal -10
+File "./theories/Init/Tactics.v", line 189, characters 0-45:
+Warning:
+now idtac((TacAlias Coq.Init.Tactics.now_#_62200C10 ((TacThen (TacArg (CAst (Reference (CAst t)))) (TacArg (CAst (TacCall Coq.Init.Tactics.easy (CAst Located)))))) (CAst (Tacexp (TacId)))))
