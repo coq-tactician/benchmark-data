@@ -6,8 +6,8 @@ Checking for available remotes: rsync and local, git.
 
 <><> Fetching repository information ><><><><><><><><><><><><><><><><><><><><><>
 [custom-archive] Initialised
-[coq-core-dev] Initialised
 [coq-extra-dev] Initialised
+[coq-core-dev] Initialised
 [coq-released] Initialised
 [default] Initialised
 [coq-tactician.dev] synchronised (git+ssh://git@github.com/brai-m/coq-tactician.git#f723da8f28ad6c68d6e0dc52526ad040acc578fc)
@@ -86,11 +86,11 @@ The following actions will be performed:
 -> installed base-unix.base
 -> retrieved base64.3.5.1  (https://opam.ocaml.org/cache)
 -> retrieved astring.0.8.5  (https://opam.ocaml.org/cache)
--> retrieved 0install-solver.2.18  (https://opam.ocaml.org/cache)
+-> retrieved bos.0.2.1  (https://opam.ocaml.org/cache)
 -> installed conf-c++.1.0
 -> installed conf-findutils.1
 -> installed conf-git.1.1
--> retrieved bos.0.2.1  (https://opam.ocaml.org/cache)
+-> retrieved 0install-solver.2.18  (https://opam.ocaml.org/cache)
 
 
 <><> Error report <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
