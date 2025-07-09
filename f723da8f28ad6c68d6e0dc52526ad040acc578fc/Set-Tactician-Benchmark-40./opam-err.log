@@ -1,0 +1,4 @@
+[WARNING] /home/opam/.opam exists and is not empty
+
+#=== ERROR while compiling conf-pkg-config.4 ==================================#
+OpamSystem.Command_not_found("pkg-config")
