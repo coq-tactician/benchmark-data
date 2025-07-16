@@ -1,0 +1,134 @@
+File "./theories/FSets/FMapAVL.v", line 1553, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1553, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1553, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1553, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1553, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1553, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/micromega/Tauto.v", line 1185, characters 2-15:
+Warning:
+Tactic could not be properly discharged: let rec is_X t :=
+                                          match goal with
+                                          | |- context [ 
+                                            is_X (AF:=?X) ] =>
+                                                let f := fresh "EQ" in
+                                                destruct 
+                                                 (is_X (AF:=X))
+                                                 as [t| ] eqn:f;
+                                                 [ apply is_X_inv in f |  ]
+                                          end
+                                         in
+                                         is_X ltac:(t)
+File "./theories/micromega/Tauto.v", line 1185, characters 2-15:
+Warning:
+Tactic could not be properly discharged: let rec is_X t :=
+                                          match goal with
+                                          | |- context [ 
+                                            is_X (AF:=?X) ] =>
+                                                let f := fresh "EQ" in
+                                                destruct 
+                                                 (is_X (AF:=X))
+                                                 as [t| ] eqn:f;
+                                                 [ apply is_X_inv in f |  ]
+                                          end
+                                         in
+                                         is_X ltac:(t0)
+File "./theories/micromega/Tauto.v", line 2058, characters 0-6:
+Warning:
+Tactic could not be properly discharged: let rec is_X t :=
+                                          match goal with
+                                          | |- context [ 
+                                            is_X (AF:=_) ] =>
+                                                let f := fresh "EQ" in
+                                                destruct 
+                                                 (is_X (AF:=X))
+                                                 as [t| ] eqn:f;
+                                                 [ apply is_X_inv in f |  ]
+                                          end
+                                         in
+                                         is_X ltac:(t)
+File "./theories/micromega/Tauto.v", line 2058, characters 0-6:
+Warning:
+Tactic could not be properly discharged: let rec is_X t :=
+                                          match goal with
+                                          | |- context [ 
+                                            is_X (AF:=_) ] =>
+                                                let f := fresh "EQ" in
+                                                destruct 
+                                                 (is_X (AF:=X))
+                                                 as [t| ] eqn:f;
+                                                 [ apply is_X_inv in f |  ]
+                                          end
+                                         in
+                                         is_X ltac:(t0)
