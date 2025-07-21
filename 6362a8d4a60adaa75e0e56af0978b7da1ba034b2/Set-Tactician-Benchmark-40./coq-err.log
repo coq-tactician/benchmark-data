@@ -162,8 +162,6 @@ Tactic could not be properly discharged: let rec is_X t :=
                                           end
                                          in
                                          is_X ltac:(t0)
-File "./theories/MSets/MSetInterface.v", line 514, characters 9-39:
-Warning: Benchmarking error: Forked process exited with signal -11
 File "./theories/micromega/Tauto.v", line 2058, characters 0-6:
 Warning:
 Tactic could not be properly discharged: let rec is_X t :=
@@ -192,17 +190,6 @@ Tactic could not be properly discharged: let rec is_X t :=
                                           end
                                          in
                                          is_X ltac:(t0)
-File "./theories/Sorting/Sorted.v", line 79, characters 4-99:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-split; [ induction 1 as [| a l [| ]] | induction 1 ]; auto
- using Sorted, LocallySorted, HdRel
-split;
- [ <recording::with_runtime_info@0> <genarg:wit_runtime_info>;
-    [ .. | idtac | destruct _tmp_tactician0 as [| ]; [ .. | idtac | idtac ] ]
- | <recording::with_runtime_info@0>
- <genarg:wit_runtime_info> ]; auto using Sorted, LocallySorted, HdRel
-
 File "./theories/ZArith/BinInt.v", line 630, characters 18-68:
 Warning:
 Tactician found a bug in it's tactical decomposition. Please report.
@@ -215,6 +202,17 @@ try intros until n;
    | destruct _tmp_tactician0 as [| | ]; [ .. | idtac | idtac | idtac ] ]);
  simpl; try easy
 
+File "./theories/Sorting/Sorted.v", line 79, characters 4-99:
+Warning:
+Tactician found a bug in it's tactical decomposition. Please report.
+split; [ induction 1 as [| a l [| ]] | induction 1 ]; auto
+ using Sorted, LocallySorted, HdRel
+split;
+ [ <recording::with_runtime_info@0> <genarg:wit_runtime_info>;
+    [ .. | idtac | destruct _tmp_tactician0 as [| ]; [ .. | idtac | idtac ] ]
+ | <recording::with_runtime_info@0>
+ <genarg:wit_runtime_info> ]; auto using Sorted, LocallySorted, HdRel
+
 File "./theories/Sets/Finite_sets_facts.v", line 45, characters 4-33:
 Warning: Tactician's tactical decomposition crashed. Please report.
 File "./theories/rtauto/Bintree.v", line 277, characters 0-28:
@@ -226,6 +224,16 @@ intros _tmp_tactician0; (first
  | injection _tmp_tactician0 as _tmp_tactician2;
     (apply Pos.succ_not_1 in _tmp_tactician2 as H; [ idtac | .. ];
       try clear _tmp_tactician2)
+ | intro_equality_clear _tmp_tactician0; idtac
+ | intro_equality_hnf _tmp_tactician0; idtac ])
+
+File "./theories/Lists/List.v", line 217, characters 8-20:
+Warning:
+Tactician found a bug in it's tactical decomposition. Please report.
+intros [=]
+intros _tmp_tactician0; (first
+ [ discriminate _tmp_tactician0; idtac
+ | injection _tmp_tactician0 as; idtac
  | intro_equality_clear _tmp_tactician0; idtac
  | intro_equality_hnf _tmp_tactician0; idtac ])
 
@@ -242,16 +250,6 @@ try intros until HP;
       [ destruct _tmp_tactician0 as (x, _tmp_tactician1);
          [ .. | destruct _tmp_tactician1 as (Heq, ?); [ .. | idtac ] ]
       | .. ]; try clear _tmp_tactician0 ]); trivial; subst
-
-File "./theories/Lists/List.v", line 217, characters 8-20:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-intros [=]
-intros _tmp_tactician0; (first
- [ discriminate _tmp_tactician0; idtac
- | injection _tmp_tactician0 as; idtac
- | intro_equality_clear _tmp_tactician0; idtac
- | intro_equality_hnf _tmp_tactician0; idtac ])
 
 File "./theories/Vectors/VectorSpec.v", line 164, characters 2-149:
 Warning: Tactician's tactical decomposition crashed. Please report.
@@ -271,6 +269,8 @@ intros _tmp_tactician0;
    [ .. | destruct _tmp_tactician2 as [| ]; [ .. | idtac | idtac ] ]);
  try discriminate
 
+File "./theories/Numbers/NatInt/NZLog.v", line 360, characters 1-13:
+Warning: Benchmarking error: Forked process exited with signal -11
 File "./theories/Lists/List.v", line 217, characters 8-20:
 Warning:
 Tactician found a bug in it's tactical decomposition. Please report.
@@ -287,6 +287,16 @@ Tactician found a bug in it's tactical decomposition. Please report.
 induction 1 as [| m _]; auto
 <recording::with_runtime_info@0> <genarg:wit_runtime_info>;
  [ .. | idtac | idtac; try clear _tmp_tactician0 ]; auto
+
+File "./theories/Lists/List.v", line 217, characters 8-20:
+Warning:
+Tactician found a bug in it's tactical decomposition. Please report.
+intros [=]
+intros _tmp_tactician0; (first
+ [ discriminate _tmp_tactician0; idtac
+ | injection _tmp_tactician0 as; idtac
+ | intro_equality_clear _tmp_tactician0; idtac
+ | intro_equality_hnf _tmp_tactician0; idtac ])
 
 File "./theories/Lists/List.v", line 217, characters 8-20:
 Warning:
@@ -326,15 +336,74 @@ intros _tmp_tactician0; (first
  | intro_equality_clear _tmp_tactician0; idtac
  | intro_equality_hnf _tmp_tactician0; idtac ])
 
-File "./theories/Lists/List.v", line 217, characters 8-20:
+File "./theories/PArith/BinPos.v", line 1650, characters 0-38:
 Warning:
 Tactician found a bug in it's tactical decomposition. Please report.
-intros [=]
-intros _tmp_tactician0; (first
- [ discriminate _tmp_tactician0; idtac
- | injection _tmp_tactician0 as; idtac
- | intro_equality_clear _tmp_tactician0; idtac
- | intro_equality_hnf _tmp_tactician0; idtac ])
+intros Hf Hg [s _ ->| s r _ -> Hr]
+intros Hf;
+ (intros Hg;
+   (intros _tmp_tactician0;
+     (destruct _tmp_tactician0
+       as
+        [s
+         _tmp_tactician2
+         _tmp_tactician4|
+         s
+         r
+         _tmp_tactician2
+         _tmp_tactician4
+         Hr];
+       [ ..
+       | intropattern subst -> _tmp_tactician4; idtac;
+          try clear _tmp_tactician2
+       | intropattern subst -> _tmp_tactician4; idtac;
+          try clear _tmp_tactician2 ])))
+
+File "./theories/PArith/BinPos.v", line 1650, characters 0-38:
+Warning:
+Tactician found a bug in it's tactical decomposition. Please report.
+intros Hf Hg [s _ ->| s r _ -> Hr]
+intros Hf;
+ (intros Hg;
+   (intros _tmp_tactician0;
+     (destruct _tmp_tactician0
+       as
+        [s
+         _tmp_tactician2
+         _tmp_tactician4|
+         s
+         r
+         _tmp_tactician2
+         _tmp_tactician4
+         Hr];
+       [ ..
+       | intropattern subst -> _tmp_tactician4; idtac;
+          try clear _tmp_tactician2
+       | intropattern subst -> _tmp_tactician4; idtac;
+          try clear _tmp_tactician2 ])))
+
+File "./theories/PArith/BinPos.v", line 1650, characters 0-38:
+Warning:
+Tactician found a bug in it's tactical decomposition. Please report.
+intros Hf Hg [s _ ->| s r _ -> Hr]
+intros Hf;
+ (intros Hg;
+   (intros _tmp_tactician0;
+     (destruct _tmp_tactician0
+       as
+        [s
+         _tmp_tactician2
+         _tmp_tactician4|
+         s
+         r
+         _tmp_tactician2
+         _tmp_tactician4
+         Hr];
+       [ ..
+       | intropattern subst -> _tmp_tactician4; idtac;
+          try clear _tmp_tactician2
+       | intropattern subst -> _tmp_tactician4; idtac;
+          try clear _tmp_tactician2 ])))
 
 File "./theories/PArith/BinPos.v", line 1650, characters 0-38:
 Warning:
@@ -368,85 +437,6 @@ intros _tmp_tactician0; (first
  | injection _tmp_tactician0 as; idtac
  | intro_equality_clear _tmp_tactician0; idtac
  | intro_equality_hnf _tmp_tactician0; idtac ])
-
-File "./theories/PArith/BinPos.v", line 1650, characters 0-38:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-intros Hf Hg [s _ ->| s r _ -> Hr]
-intros Hf;
- (intros Hg;
-   (intros _tmp_tactician0;
-     (destruct _tmp_tactician0
-       as
-        [s
-         _tmp_tactician2
-         _tmp_tactician4|
-         s
-         r
-         _tmp_tactician2
-         _tmp_tactician4
-         Hr];
-       [ ..
-       | intropattern subst -> _tmp_tactician4; idtac;
-          try clear _tmp_tactician2
-       | intropattern subst -> _tmp_tactician4; idtac;
-          try clear _tmp_tactician2 ])))
-
-File "./theories/PArith/BinPos.v", line 1650, characters 0-38:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-intros Hf Hg [s _ ->| s r _ -> Hr]
-intros Hf;
- (intros Hg;
-   (intros _tmp_tactician0;
-     (destruct _tmp_tactician0
-       as
-        [s
-         _tmp_tactician2
-         _tmp_tactician4|
-         s
-         r
-         _tmp_tactician2
-         _tmp_tactician4
-         Hr];
-       [ ..
-       | intropattern subst -> _tmp_tactician4; idtac;
-          try clear _tmp_tactician2
-       | intropattern subst -> _tmp_tactician4; idtac;
-          try clear _tmp_tactician2 ])))
-
-File "./theories/Lists/List.v", line 217, characters 8-20:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-intros [=]
-intros _tmp_tactician0; (first
- [ discriminate _tmp_tactician0; idtac
- | injection _tmp_tactician0 as; idtac
- | intro_equality_clear _tmp_tactician0; idtac
- | intro_equality_hnf _tmp_tactician0; idtac ])
-
-File "./theories/PArith/BinPos.v", line 1650, characters 0-38:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-intros Hf Hg [s _ ->| s r _ -> Hr]
-intros Hf;
- (intros Hg;
-   (intros _tmp_tactician0;
-     (destruct _tmp_tactician0
-       as
-        [s
-         _tmp_tactician2
-         _tmp_tactician4|
-         s
-         r
-         _tmp_tactician2
-         _tmp_tactician4
-         Hr];
-       [ ..
-       | intropattern subst -> _tmp_tactician4; idtac;
-          try clear _tmp_tactician2
-       | intropattern subst -> _tmp_tactician4; idtac;
-          try clear _tmp_tactician2 ])))
 
 File "./theories/PArith/BinPos.v", line 1650, characters 0-38:
 Warning:
