@@ -1,13 +1,1 @@
 [WARNING] /home/opam/.opam exists and is not empty
-  * No agreement on the version of coq-core:
-    - coq-tactician -> coq-core
-  * Incompatible packages:
-    - coq-tactician -> coq-core
-    - coq-tactician-stdlib -> coq < 8.12~
-  * Incompatible packages:
-    - coq-tactician -> coq-core
-    - coq-tactician-stdlib -> coq < 8.13~
-  * Incompatible packages:
-    - coq-tactician -> coq-core
-    - coq-tactician-stdlib -> coq < 8.14~
-
