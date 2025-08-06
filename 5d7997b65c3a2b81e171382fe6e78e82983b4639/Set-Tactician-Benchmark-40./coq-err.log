@@ -1,0 +1,73 @@
+File "./theories/Numbers/Cyclic/ZModulo/ZModulo.v", line 445, characters 3-38:
+Warning:
+Tactician detected a printing/parsing problem for the following tactic. injection H as [=? ?] Please report.
+File "./theories/Numbers/Cyclic/ZModulo/ZModulo.v", line 492, characters 1-25:
+Warning:
+Tactician detected a printing/parsing problem for the following tactic. injection H1 as [=? ?] Please report.
+File "./theories/Numbers/Cyclic/ZModulo/ZModulo.v", line 618, characters 1-25:
+Warning:
+Tactician detected a printing/parsing problem for the following tactic. injection H4 as [=? ?] Please report.
+File "./theories/ZArith/Zquot.v", line 128, characters 2-70:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/FSets/FMapFullAVL.v", line 599, characters 1-120:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/btauto/Algebra.v", line 527, characters 0-64:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/FSets/FMapFullAVL.v", line 607, characters 8-72:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/FSets/FSetProperties.v", line 441, characters 2-38:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/FSets/FSetFacts.v", line 171, characters 0-73:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/MSets/MSetFacts.v", line 90, characters 7-37:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/Structures/OrderedTypeEx.v", line 209, characters 1-24:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/NArith/Ndec.v", line 171, characters 2-14:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/setoid_ring/Field_theory.v", line 205, characters 0-7:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/micromega/RingMicromega.v", line 907, characters 2-20:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/MSets/MSetProperties.v", line 725, characters 2-37:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/setoid_ring/Field_theory.v", line 213, characters 0-25:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/MSets/MSetGenTree.v", line 411, characters 1-42:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/MSets/MSetProperties.v", line 859, characters 2-9:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/MSets/MSetRBT.v", line 1365, characters 1-15:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/FSets/FMapAVL.v", line 2112, characters 3-107:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/MSets/MSetWeakList.v", line 300, characters 2-58:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/Sorting/Permutation.v", line 405, characters 1-38:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/Sorting/Permutation.v", line 437, characters 2-95:
+Warning:
+Tactician detected a printing/parsing problem for the following tactic. injection Heqm as [=? ?] Please report.
+File "./theories/Sorting/Permutation.v", line 437, characters 2-95:
+Warning:
+Tactician detected a printing/parsing problem for the following tactic. injection Heqm as [=? ?] Please report.
+File "./theories/MSets/MSetWeakList.v", line 402, characters 2-21:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/MSets/MSetInterface.v", line 541, characters 9-38:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/Numbers/Natural/Abstract/NDefOps.v", line 415, characters 0-32:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/Arith/Wf_nat.v", line 236, characters 2-71:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/FSets/FMapWeakList.v", line 922, characters 8-57:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/Numbers/Natural/Abstract/NStrongRec.v", line 92, characters 0-7:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/FSets/FMapWeakList.v", line 942, characters 8-50:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/ssr/ssrbool.v", line 827, characters 0-45:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/ssr/ssrbool.v", line 1721, characters 7-45:
+Warning: Benchmarking error: Forked process exited with signal -11
+File "./theories/ssr/ssrbool.v", line 2201, characters 0-53:
+Warning: Benchmarking error: Forked process exited with signal -11
