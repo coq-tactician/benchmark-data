@@ -1,0 +1,11 @@
+File "./theories/Reals/RIneq.v", line 679, characters 2-27:
+Warning:
+Benchmarking error: Anomaly
+                    "File "src/ltacrecord.ml", line 453, characters 61-67: Assertion failed."
+Please report at http://coq.inria.fr/bugs/.
+File "./theories/Sorting/Permutation.v", line 437, characters 2-95:
+Warning:
+Tactician detected a printing/parsing problem for the following tactic. injection Heqm as [=? ?] Please report.
+File "./theories/Sorting/Permutation.v", line 437, characters 2-95:
+Warning:
+Tactician detected a printing/parsing problem for the following tactic. injection Heqm as [=? ?] Please report.
