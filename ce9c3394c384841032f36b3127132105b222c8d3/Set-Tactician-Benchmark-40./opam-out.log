@@ -8,8 +8,8 @@ Checking for available remotes: rsync and local, git.
 [custom-archive] Initialised
 [coq-core-dev] Initialised
 [coq-extra-dev] Initialised
-[default] Initialised
 [coq-released] Initialised
+[default] Initialised
 [coq-tactician.dev] synchronised (git+ssh://git@github.com/brai-m/coq-tactician.git#ce9c3394c384841032f36b3127132105b222c8d3)
 coq-tactician is now pinned to git+ssh://git@github.com/brai-m/coq-tactician.git#ce9c3394c384841032f36b3127132105b222c8d3 (version dev)
 
@@ -38,10 +38,10 @@ The following actions will be performed:
   - install csexp                 1.5.2
   - install cudf                  0.10
   - install dose3                 7.0.0
-  - install dune                  3.19.1
-  - install dune-private-libs     3.19.1
-  - install dune-site             3.19.1
-  - install dyn                   3.19.1
+  - install dune                  3.20.1
+  - install dune-private-libs     3.20.1
+  - install dune-site             3.20.1
+  - install dyn                   3.20.1
   - install extlib                1.8.0
   - install fmt                   0.11.0
   - install fpath                 0.7.3
@@ -66,7 +66,7 @@ The following actions will be performed:
   - install opam-repository       2.4.1
   - install opam-solver           2.4.1
   - install opam-state            2.4.1
-  - install ordering              3.19.1
+  - install ordering              3.20.1
   - install patch                 3.0.0
   - install pp                    2.0.0
   - install re                    1.13.2
@@ -75,7 +75,7 @@ The following actions will be performed:
   - install sha                   1.15.4
   - install spdx_licenses         1.4.0
   - install stdlib-shims          0.3.0
-  - install stdune                3.19.1
+  - install stdune                3.20.1
   - install swhid_core            0.1
   - install topkg                 1.1.0
   - install uutf                  1.0.4
@@ -100,11 +100,11 @@ The following actions will be performed:
 -> retrieved csexp.1.5.2  (https://opam.ocaml.org/cache)
 -> retrieved cudf.0.10  (https://opam.ocaml.org/cache)
 -> retrieved dose3.7.0.0  (https://opam.ocaml.org/cache)
+-> retrieved dune.3.20.1, dune-private-libs.3.20.1, dune-site.3.20.1, dyn.3.20.1, ordering.3.20.1, stdune.3.20.1  (https://opam.ocaml.org/cache)
 -> retrieved extlib.1.8.0  (https://opam.ocaml.org/cache)
--> retrieved dune.3.19.1, dune-private-libs.3.19.1, dune-site.3.19.1, dyn.3.19.1, ordering.3.19.1, stdune.3.19.1  (https://opam.ocaml.org/cache)
+-> retrieved fpath.0.7.3  (https://opam.ocaml.org/cache)
 -> retrieved fmt.0.11.0  (https://opam.ocaml.org/cache)
 -> retrieved jsonm.1.0.2  (https://opam.ocaml.org/cache)
--> retrieved fpath.0.7.3  (https://opam.ocaml.org/cache)
 -> retrieved logs.0.9.0  (https://opam.ocaml.org/cache)
 -> retrieved mccs.1.1+19  (https://opam.ocaml.org/cache)
 -> retrieved coq-core.8.19.dev  (git+https://github.com/coq/coq.git#v8.19)
@@ -113,8 +113,8 @@ The following actions will be performed:
 -> retrieved ocaml-config.3  (2 extra sources)
 -> retrieved ocaml-config.3  (2 extra sources)
 -> installed ocaml-options-vanilla.1
--> retrieved menhirSdk.dev  (git+https://gitlab.inria.fr/fpottier/menhir.git#master)
 -> retrieved ocamlbuild.0.16.1  (https://opam.ocaml.org/cache)
+-> retrieved menhirSdk.dev  (git+https://gitlab.inria.fr/fpottier/menhir.git#master)
 -> retrieved ocaml-base-compiler.5.2.1  (https://opam.ocaml.org/cache)
 -> retrieved opam-0install-cudf.0.5.0  (https://opam.ocaml.org/cache)
 -> retrieved ocamlfind.1.9.8  (https://opam.ocaml.org/cache)
@@ -126,9 +126,9 @@ The following actions will be performed:
 -> retrieved rresult.0.7.0  (https://opam.ocaml.org/cache)
 -> retrieved re.1.13.2  (https://opam.ocaml.org/cache)
 -> retrieved sha.1.15.4  (https://opam.ocaml.org/cache)
+-> retrieved seq.base  (2 extra sources)
+-> retrieved seq.base  (2 extra sources)
 -> retrieved spdx_licenses.1.4.0  (https://opam.ocaml.org/cache)
--> retrieved seq.base  (2 extra sources)
--> retrieved seq.base  (2 extra sources)
 -> retrieved stdlib-shims.0.3.0  (https://opam.ocaml.org/cache)
 -> retrieved swhid_core.0.1  (https://opam.ocaml.org/cache)
 -> retrieved uutf.1.0.4  (https://opam.ocaml.org/cache)
@@ -153,7 +153,7 @@ The following actions will be performed:
 -> installed fpath.0.7.3
 -> installed logs.0.9.0
 -> installed bos.0.2.1
--> installed dune.3.19.1
+-> installed dune.3.20.1
 -> installed 0install-solver.2.18
 -> installed base64.3.5.1
 -> installed cppo.1.8.0
@@ -168,17 +168,17 @@ The following actions will be performed:
 -> installed stdlib-shims.0.3.0
 -> installed swhid_core.0.1
 -> installed extlib.1.8.0
--> installed ordering.3.19.1
+-> installed ordering.3.20.1
 -> installed cudf.0.10
 -> installed sha.1.15.4
 -> installed opam-0install-cudf.0.5.0
--> installed dyn.3.19.1
+-> installed dyn.3.20.1
 -> installed dose3.7.0.0
 -> installed mccs.1.1+19
--> installed stdune.3.19.1
 -> installed opam-core.2.4.1
--> installed dune-private-libs.3.19.1
--> installed dune-site.3.19.1
+-> installed stdune.3.20.1
+-> installed dune-private-libs.3.20.1
+-> installed dune-site.3.20.1
 -> installed menhir.dev
 -> installed opam-file-format.2.2.0
 -> installed opam-format.2.4.1

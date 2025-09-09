@@ -1,8 +1,3 @@
-File "./theories/FSets/FMapPositive.v", line 224, characters 4-28:
-Warning:
-Benchmarking error: Anomaly
-                    "File "src/ltacrecord.ml", line 573, characters 61-67: Assertion failed."
-Please report at http://coq.inria.fr/bugs/.
 File "./theories/btauto/Reflect.v", line 112, characters 0-16:
 Warning:
 Tactic could not be properly discharged: match goal with
@@ -48,119 +43,124 @@ Tactic could not be properly discharged: match goal with
                                            |- _ =>
                                                rewrite (eval_null_zero _ _ H)
                                          end
+File "./theories/FSets/FSetEqProperties.v", line 518, characters 0-45:
+Warning:
+Benchmarking error: Anomaly
+                    "File "src/ltacrecord.ml", line 573, characters 61-67: Assertion failed."
+Please report at http://coq.inria.fr/bugs/.
+File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | E:split ?x ?t = _, B:bst ?t
+                                           |- _ =>
+                                               generalize 
+                                                (split_in_1 x B),
+                                                (split_in_2 x B),
+                                                (split_bst x B); 
+                                                rewrite E; 
+                                                simpl; 
+                                                destruct 3
+                                         end
+File "./theories/micromega/RingMicromega.v", line 1103, characters 0-14:
+Warning: Tactic could not be properly discharged: repeat rewrite eval_pol_Pc
+File "./theories/micromega/RingMicromega.v", line 1103, characters 0-14:
+Warning: Tactic could not be properly discharged: repeat rewrite eval_pol_Pc
 File "./theories/FSets/FSetEqProperties.v", line 785, characters 0-9:
 Warning:
 Tactic could not be properly discharged: assert (E.eq x y -> f y = true) by
                                           (intro H0; rewrite <- (Comp _ _ H0);
                                             auto)
-File "./theories/micromega/RingMicromega.v", line 1103, characters 0-14:
-Warning: Tactic could not be properly discharged: repeat rewrite eval_pol_Pc
-File "./theories/micromega/RingMicromega.v", line 1103, characters 0-14:
-Warning: Tactic could not be properly discharged: repeat rewrite eval_pol_Pc
-File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | E:split ?x ?t = _, B:bst ?t
-                                           |- _ =>
-                                               generalize 
-                                                (split_in_1 x B),
-                                                (split_in_2 x B),
-                                                (split_bst x B); 
-                                                rewrite E; 
-                                                simpl; 
-                                                destruct 3
-                                         end
-File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | E:split ?x ?t = _, B:bst ?t
-                                           |- _ =>
-                                               generalize 
-                                                (split_in_1 x B),
-                                                (split_in_2 x B),
-                                                (split_bst x B); 
-                                                rewrite E; 
-                                                simpl; 
-                                                destruct 3
-                                         end
-File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | E:split ?x ?t = _, B:bst ?t
-                                           |- _ =>
-                                               generalize 
-                                                (split_in_1 x B),
-                                                (split_in_2 x B),
-                                                (split_bst x B); 
-                                                rewrite E; 
-                                                simpl; 
-                                                destruct 3
-                                         end
-File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | E:split ?x ?t = _, B:bst ?t
-                                           |- _ =>
-                                               generalize 
-                                                (split_in_1 x B),
-                                                (split_in_2 x B),
-                                                (split_bst x B); 
-                                                rewrite E; 
-                                                simpl; 
-                                                destruct 3
-                                         end
-File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | E:split ?x ?t = _, B:bst ?t
-                                           |- _ =>
-                                               generalize 
-                                                (split_in_1 x B),
-                                                (split_in_2 x B),
-                                                (split_bst x B); 
-                                                rewrite E; 
-                                                simpl; 
-                                                destruct 3
-                                         end
-File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | E:split ?x ?t = _, B:bst ?t
-                                           |- _ =>
-                                               generalize 
-                                                (split_in_1 x B),
-                                                (split_in_2 x B),
-                                                (split_bst x B); 
-                                                rewrite E; 
-                                                simpl; 
-                                                destruct 3
-                                         end
-File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | E:split ?x ?t = _, B:bst ?t
-                                           |- _ =>
-                                               generalize 
-                                                (split_in_1 x B),
-                                                (split_in_2 x B),
-                                                (split_bst x B); 
-                                                rewrite E; 
-                                                simpl; 
-                                                destruct 3
-                                         end
-File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | E:split ?x ?t = _, B:bst ?t
-                                           |- _ =>
-                                               generalize 
-                                                (split_in_1 x B),
-                                                (split_in_2 x B),
-                                                (split_bst x B); 
-                                                rewrite E; 
-                                                simpl; 
-                                                destruct 3
-                                         end
 File "./theories/Strings/Byte.v", line 616, characters 0-8:
 Warning:
 Tactic could not be properly discharged: repeat
@@ -252,11 +252,6 @@ Tactic could not be properly discharged: match goal with
                                                  (m = None -> p = None));
                                                 [  | intuition ]
                                          end
-File "./theories/FSets/FMapFacts.v", line 1770, characters 1-9:
-Warning:
-Tactic could not be properly discharged: assert (~ In k m0) by
-                                          (intros (e0, He0); apply (Hm0 k e0);
-                                            auto)
 File "./theories/micromega/Tauto.v", line 1195, characters 4-20:
 Warning: Tactic could not be properly discharged: rewrite <- ?IHf
 File "./theories/micromega/Tauto.v", line 1198, characters 2-15:
@@ -289,12 +284,11 @@ Tactic could not be properly discharged: let rec is_X t :=
                                           end
                                          in
                                          is_X ltac:(t0)
-File "./theories/Sorting/Permutation.v", line 437, characters 2-95:
+File "./theories/FSets/FMapFacts.v", line 1770, characters 1-9:
 Warning:
-Tactician detected a printing/parsing problem for the following tactic. injection Heqm as [=? ?] Please report.
-File "./theories/Sorting/Permutation.v", line 437, characters 2-95:
-Warning:
-Tactician detected a printing/parsing problem for the following tactic. injection Heqm as [=? ?] Please report.
+Tactic could not be properly discharged: assert (~ In k m0) by
+                                          (intros (e0, He0); apply (Hm0 k e0);
+                                            auto)
 File "./theories/Lists/SetoidList.v", line 314, characters 0-11:
 Warning:
 Tactic could not be properly discharged: match goal with
@@ -314,6 +308,12 @@ Tactic could not be properly discharged: match goal with
                                          | H0:~ InA a (l ++ x :: l')
                                            |- _ => apply H0
                                          end
+File "./theories/Sorting/Permutation.v", line 437, characters 2-95:
+Warning:
+Tactician detected a printing/parsing problem for the following tactic. injection Heqm as [=? ?] Please report.
+File "./theories/Sorting/Permutation.v", line 437, characters 2-95:
+Warning:
+Tactician detected a printing/parsing problem for the following tactic. injection Heqm as [=? ?] Please report.
 File "./theories/micromega/EnvRing.v", line 1035, characters 1-11:
 Warning:
 Tactic could not be properly discharged: rewrite ?subst_l_ok, ?Pmul_ok, ?IHp
@@ -332,36 +332,36 @@ rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
 File "./theories/micromega/EnvRing.v", line 1115, characters 0-16:
 Warning: Tactic could not be properly discharged: now
 rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
 File "./theories/setoid_ring/Ring_polynom.v", line 1002, characters 1-11:
 Warning:
 Tactic could not be properly discharged: rewrite ?subst_l_ok, ?Pmul_ok, ?IHp
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
 File "./theories/Lists/SetoidList.v", line 380, characters 0-15:
 Warning:
 Tactic could not be properly discharged: match goal with
@@ -378,8 +378,6 @@ Tactic could not be properly discharged: match goal with
                                          | H0:~ (InA y l1 \/ InA y l2)
                                            |- _ => elim H0
                                          end
-File "./theories/setoid_ring/BinList.v", line 82, characters 0-16:
-Warning: Tactic could not be properly discharged: now rewrite ?IHj
 File "./theories/micromega/Tauto.v", line 2080, characters 0-6:
 Warning: Tactic could not be properly discharged: rewrite <- ?IHf
 File "./theories/micromega/Tauto.v", line 2080, characters 0-6:
@@ -410,17 +408,19 @@ Tactic could not be properly discharged: let rec is_X t :=
                                           end
                                          in
                                          is_X ltac:(t0)
-File "./theories/setoid_ring/Ring_polynom.v", line 1095, characters 1-20:
-Warning: Tactic could not be properly discharged: now
-rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
-File "./theories/setoid_ring/Ring_polynom.v", line 1095, characters 1-20:
-Warning: Tactic could not be properly discharged: now
-rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
+File "./theories/setoid_ring/BinList.v", line 82, characters 0-16:
+Warning: Tactic could not be properly discharged: now rewrite ?IHj
 File "./theories/setoid_ring/Field_theory.v", line 1614, characters 0-16:
 Warning:
 Tactic could not be properly discharged: repeat
                                           (case ceqb_spec; intro H;
                                             try rewrite H; clear H)
+File "./theories/setoid_ring/Ring_polynom.v", line 1095, characters 1-20:
+Warning: Tactic could not be properly discharged: now
+rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
+File "./theories/setoid_ring/Ring_polynom.v", line 1095, characters 1-20:
+Warning: Tactic could not be properly discharged: now
+rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
 File "./theories/setoid_ring/Field_theory.v", line 1638, characters 0-17:
 Warning:
 Tactic could not be properly discharged: repeat
@@ -978,12 +978,6 @@ Tactic could not be properly discharged: let rec uneval :=
                                            end
                                          in
                                          uneval
-File "./theories/Structures/OrderedType.v", line 493, characters 1-9:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | H:lt _ _, H1:eq _ _
-                                           |- _ => exact (lt_not_eq H H1)
-                                         end
 File "./theories/Lists/SetoidList.v", line 533, characters 0-26:
 Warning:
 Tactic could not be properly discharged: match goal with
@@ -991,6 +985,12 @@ Tactic could not be properly discharged: match goal with
                                            |- R a x =>
                                                rewrite Forall_forall in H0;
                                                 apply H0
+                                         end
+File "./theories/Structures/OrderedType.v", line 493, characters 1-9:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | H:lt _ _, H1:eq _ _
+                                           |- _ => exact (lt_not_eq H H1)
                                          end
 File "./theories/Lists/SetoidList.v", line 564, characters 0-9:
 Warning:
@@ -1334,6 +1334,30 @@ move  =>Qb; split => ?; [ apply : appP  | apply : elimT ; case : Qb  ]
 File "./theories/ssr/ssrbool.v", line 760, characters 0-12:
 Warning: Tactic could not be properly discharged: by
 case  def_b: b / Pb ; constructor; rewrite ?def_b
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
 File "./theories/ssr/ssrbool.v", line 649, characters 0-11:
 Warning: Tactic could not be properly discharged: by
 case  def_b: b ; constructor; rewrite ?def_b
@@ -1349,30 +1373,6 @@ move  =>Qb; split => ?; [ apply : appP  | apply : elimT ; case : Qb  ]
 File "./theories/ssr/ssrbool.v", line 760, characters 0-12:
 Warning: Tactic could not be properly discharged: by
 case  def_b: b / Pb ; constructor; rewrite ?def_b
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
 File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
 Warning: Tactic could not be properly discharged: by
 split => haveP; split => x; case : (haveP x) 
@@ -1428,417 +1428,417 @@ move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
 File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
 Warning: Tactic could not be properly discharged: by
 move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-move  =>symR x y; apply /idP/idP ; apply : symR 
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
-File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-move  =>symR x y; apply /idP/idP ; apply : symR 
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allP x /sub1; apply : allP 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allP x1 x2 /sub1 d1x1 /sub2; apply : allP 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allP x1 x2 x3 /sub1 d1x1 /sub2 d2x2 /sub3; apply : allP 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allQ x /sub2; apply : allQ 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allQ x /sub2; apply : allQ 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allQ x y /sub2 => d2fx /sub2; apply : allQ 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D1y ->; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D1x <-; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D2fy ->; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D2fx <-; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>D1f ? ? ? ? ? ?; apply : D1f 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allf ? ? ?; apply : allf 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allf ? ? ?; apply : allf 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allf ? ? ? ? ? ?; apply : allf 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>? fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>? fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>? fD1 ? ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD2 fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD2 fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD2 fD1 ? ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-move  =>symR x y; apply /idP/idP ; apply : symR 
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
-File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
-Warning: Tactic could not be properly discharged: by
-split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allP x /sub1; apply : allP 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allP x1 x2 /sub1 d1x1 /sub2; apply : allP 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allP x1 x2 x3 /sub1 d1x1 /sub2 d2x2 /sub3; apply : allP 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allQ x /sub2; apply : allQ 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allQ x /sub2; apply : allQ 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allQ x y /sub2 => d2fx /sub2; apply : allQ 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D1y ->; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D1x <-; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D2fy ->; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D2fx <-; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>D1f ? ? ? ? ? ?; apply : D1f 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allf ? ? ?; apply : allf 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allf ? ? ?; apply : allf 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allf ? ? ? ? ? ?; apply : allf 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>? fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>? fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>? fD1 ? ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD2 fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD2 fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD2 fD1 ? ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allP x /sub1; apply : allP 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allP x1 x2 /sub1 d1x1 /sub2; apply : allP 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allP x1 x2 x3 /sub1 d1x1 /sub2 d2x2 /sub3; apply : allP 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allQ x /sub2; apply : allQ 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allQ x /sub2; apply : allQ 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allQ x y /sub2 => d2fx /sub2; apply : allQ 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D1y ->; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D1x <-; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D2fy ->; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fK D2fx <-; rewrite fK
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-case  =>g' fK g'K; exists g' => * ? *; auto
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
- [ apply : fK  | apply : g'K  ]
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>D1f ? ? ? ? ? ?; apply : D1f 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allf ? ? ?; apply : allf 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allf ? ? ?; apply : allf 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>allf ? ? ? ? ? ?; apply : allf 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>? fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>? fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>? fD1 ? ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ?; apply /fD1/fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD2 fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD2 fD1 ?; apply : fD1 
-File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
-Warning: Tactic could not be properly discharged: by
-move  =>fD2 fD1 ? ?; apply : fD1 
 File "./theories/Lists/List.v", line 2086, characters 0-12:
 Warning: Tactic could not be properly discharged: now
 intros a l m ? H b [<-| ]; [  | apply H ]
+File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+move  =>symR x y; apply /idP/idP ; apply : symR 
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allP x /sub1; apply : allP 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allP x1 x2 /sub1 d1x1 /sub2; apply : allP 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allP x1 x2 x3 /sub1 d1x1 /sub2 d2x2 /sub3; apply : allP 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allQ x /sub2; apply : allQ 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allQ x /sub2; apply : allQ 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allQ x y /sub2 => d2fx /sub2; apply : allQ 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D1y ->; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D1x <-; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D2fy ->; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D2fx <-; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>D1f ? ? ? ? ? ?; apply : D1f 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allf ? ? ?; apply : allf 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allf ? ? ?; apply : allf 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allf ? ? ? ? ? ?; apply : allf 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>? fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>? fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>? fD1 ? ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD2 fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD2 fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD2 fD1 ? ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+move  =>symR x y; apply /idP/idP ; apply : symR 
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
 File "./theories/Lists/List.v", line 2086, characters 0-12:
 Warning: Tactic could not be properly discharged: now
 intros a l m ? H b [<-| ]; [  | apply H ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allP x /sub1; apply : allP 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allP x1 x2 /sub1 d1x1 /sub2; apply : allP 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allP x1 x2 x3 /sub1 d1x1 /sub2 d2x2 /sub3; apply : allP 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allQ x /sub2; apply : allQ 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allQ x /sub2; apply : allQ 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allQ x y /sub2 => d2fx /sub2; apply : allQ 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D1y ->; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D1x <-; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D2fy ->; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D2fx <-; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>D1f ? ? ? ? ? ?; apply : D1f 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allf ? ? ?; apply : allf 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allf ? ? ?; apply : allf 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allf ? ? ? ? ? ?; apply : allf 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>? fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>? fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>? fD1 ? ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD2 fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD2 fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD2 fD1 ? ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+move  =>symR x y; apply /idP/idP ; apply : symR 
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
+File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
+Warning: Tactic could not be properly discharged: by
+split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allP x /sub1; apply : allP 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allP x1 x2 /sub1 d1x1 /sub2; apply : allP 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allP x1 x2 x3 /sub1 d1x1 /sub2 d2x2 /sub3; apply : allP 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allQ x /sub2; apply : allQ 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allQ x /sub2; apply : allQ 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allQ x y /sub2 => d2fx /sub2; apply : allQ 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D1y ->; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D1x <-; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D2fy ->; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fK D2fx <-; rewrite fK
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+case  =>g' fK g'K; exists g' => * ? *; auto
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>subD [g' fK g'K]; exists g' => x; move /subD ;
+ [ apply : fK  | apply : g'K  ]
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>D1f ? ? ? ? ? ?; apply : D1f 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allf ? ? ?; apply : allf 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allf ? ? ?; apply : allf 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>allf ? ? ? ? ? ?; apply : allf 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>? fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>? fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>? fD1 ? ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ?; apply /fD1/fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fD1 ? ? ? ?; apply : fD1  => //; apply : fD 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD2 fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD2 fD1 ?; apply : fD1 
+File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
+Warning: Tactic could not be properly discharged: by
+move  =>fD2 fD1 ? ?; apply : fD1 
 File "./theories/Lists/List.v", line 2086, characters 0-12:
 Warning: Tactic could not be properly discharged: now
 intros a l m ? H b [<-| ]; [  | apply H ]
@@ -2163,6 +2163,30 @@ move  =>mem_g fgK x x_rD; apply /fgK/mem_g
 File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
 Warning: Tactic could not be properly discharged: by
 move  =>mem_g fgK x; apply /fgK 
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fK gI x gx_aD; apply : gI ; rewrite ?inE ?fK
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fK gI x gx_aD; apply : gI ; rewrite ?inE ?fK
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
 File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
 Warning: Tactic could not be properly discharged: by
 move  =>hf x ax; rewrite hf
@@ -2184,111 +2208,6 @@ move  =>mf x y; rewrite -{+1}[x]fgK mf
 File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
 Warning: Tactic could not be properly discharged: by
 move  =>mf x y /=; rewrite -mf !fgK
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fK gI x gx_aD; apply : gI ; rewrite ?inE ?fK
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fK gI x gx_aD; apply : gI ; rewrite ?inE ?fK
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
-File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
-Warning: Tactic could not be properly discharged: by
-move  =>hf x hx ax; rewrite hf
-File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
-Warning: Tactic could not be properly discharged: by
-move  =>hf x ax; rewrite hf
-File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
-Warning: Tactic could not be properly discharged: by
-move  =>hf x y hx hy axy; rewrite hf
-File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
-Warning: Tactic could not be properly discharged: by
-move  =>hf x y axy; rewrite hf
-File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
-Warning: Tactic could not be properly discharged: by
-move  =>mf x y hx hy; rewrite -{+1}[y]fgK ?mem_g // mf ?mem_g
-File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
-Warning: Tactic could not be properly discharged: by
-move  =>mf x y hx hy; rewrite -{+1}[y]fgK ?mem_g // mf ?mem_g
-File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
-Warning: Tactic could not be properly discharged: by
-move  =>mf x y hx hy; rewrite -{+1}[x]fgK ?mem_g // mf ?mem_g
-File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
-Warning: Tactic could not be properly discharged: by
-move  =>mf x y hx hy; rewrite -{+1}[x]fgK ?mem_g // mf ?mem_g
-File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
-Warning: Tactic could not be properly discharged: by
-move  =>mf x y hx hy; rewrite -mf ?mem_g // !fgK ?mem_g
-File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
-Warning: Tactic could not be properly discharged: by
-move  =>mf x y; rewrite -{+1}[y]fgK mf
-File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
-Warning: Tactic could not be properly discharged: by
-move  =>mf x y; rewrite -{+1}[y]fgK mf
-File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
-Warning: Tactic could not be properly discharged: by
-move  =>mf x y; rewrite -{+1}[x]fgK mf
-File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
-Warning: Tactic could not be properly discharged: by
-move  =>mf x y; rewrite -{+1}[x]fgK mf
-File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
-Warning: Tactic could not be properly discharged: by
-move  =>mf x y /=; rewrite -mf !fgK
-File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
-Warning: Tactic could not be properly discharged: by
-move  =>fR y x; apply : fR 
-File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
-Warning: Tactic could not be properly discharged: by
-move  =>fR y x; apply : fR 
-File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
-Warning: Tactic could not be properly discharged: by
-move  =>fR y x yD xD; apply : fR 
-File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
-Warning: Tactic could not be properly discharged: by
-move  =>fR y x yD xD; apply : fR 
-File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
-Warning: Tactic could not be properly discharged: by
-move  =>fR y x yD xD; apply : fR 
-File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
-Warning: Tactic could not be properly discharged: by
-move  =>fR y x yD xD; apply : fR 
-File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
-Warning: Tactic could not be properly discharged: by
-move  =>fgK x xaD; apply : fgK 
-File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
-Warning: Tactic could not be properly discharged: by
-move  =>fgK x xrD xaD; apply : fgK 
-File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
-Warning: Tactic could not be properly discharged: by
-move  =>fgK x xrD xaD; apply : fgK 
-File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
-Warning: Tactic could not be properly discharged: by
-move  =>mem_g fgK x; apply : fgK 
-File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
-Warning: Tactic could not be properly discharged: by
-move  =>mem_g fgK x x_rD; apply /fgK/mem_g 
-File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
-Warning: Tactic could not be properly discharged: by
-move  =>mem_g fgK x x_rD; apply /fgK/mem_g 
-File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
-Warning: Tactic could not be properly discharged: by
-move  =>mem_g fgK x; apply /fgK 
 File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
 Warning: Tactic could not be properly discharged: by
 move  =>hf x hx ax; rewrite hf
@@ -2310,30 +2229,6 @@ move  =>mf x y hx hy; rewrite -{+1}[x]fgK ?mem_g // mf ?mem_g
 File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
 Warning: Tactic could not be properly discharged: by
 move  =>mf x y hx hy; rewrite -mf ?mem_g // !fgK ?mem_g
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fK gI x gx_aD; apply : gI ; rewrite ?inE ?fK
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fK gI x gx_aD; apply : gI ; rewrite ?inE ?fK
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
-File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
-Warning: Tactic could not be properly discharged: by
-move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
 File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
 Warning: Tactic could not be properly discharged: by
 move  =>fR y x; apply : fR 
@@ -2397,9 +2292,111 @@ move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
 File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
 Warning: Tactic could not be properly discharged: by
 move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
-File "./theories/Lists/List.v", line 2086, characters 0-12:
-Warning: Tactic could not be properly discharged: now
-intros a l m ? H b [<-| ]; [  | apply H ]
+File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
+Warning: Tactic could not be properly discharged: by
+move  =>hf x ax; rewrite hf
+File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
+Warning: Tactic could not be properly discharged: by
+move  =>hf x y axy; rewrite hf
+File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
+Warning: Tactic could not be properly discharged: by
+move  =>mf x y; rewrite -{+1}[y]fgK mf
+File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
+Warning: Tactic could not be properly discharged: by
+move  =>mf x y; rewrite -{+1}[y]fgK mf
+File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
+Warning: Tactic could not be properly discharged: by
+move  =>mf x y; rewrite -{+1}[x]fgK mf
+File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
+Warning: Tactic could not be properly discharged: by
+move  =>mf x y; rewrite -{+1}[x]fgK mf
+File "./theories/ssr/ssrbool.v", line 2222, characters 0-27:
+Warning: Tactic could not be properly discharged: by
+move  =>mf x y /=; rewrite -mf !fgK
+File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
+Warning: Tactic could not be properly discharged: by
+move  =>hf x hx ax; rewrite hf
+File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
+Warning: Tactic could not be properly discharged: by
+move  =>hf x y hx hy axy; rewrite hf
+File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
+Warning: Tactic could not be properly discharged: by
+move  =>mf x y hx hy; rewrite -{+1}[y]fgK ?mem_g // mf ?mem_g
+File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
+Warning: Tactic could not be properly discharged: by
+move  =>mf x y hx hy; rewrite -{+1}[y]fgK ?mem_g // mf ?mem_g
+File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
+Warning: Tactic could not be properly discharged: by
+move  =>mf x y hx hy; rewrite -{+1}[x]fgK ?mem_g // mf ?mem_g
+File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
+Warning: Tactic could not be properly discharged: by
+move  =>mf x y hx hy; rewrite -{+1}[x]fgK ?mem_g // mf ?mem_g
+File "./theories/ssr/ssrbool.v", line 2279, characters 0-30:
+Warning: Tactic could not be properly discharged: by
+move  =>mf x y hx hy; rewrite -mf ?mem_g // !fgK ?mem_g
+File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
+Warning: Tactic could not be properly discharged: by
+move  =>fR y x; apply : fR 
+File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
+Warning: Tactic could not be properly discharged: by
+move  =>fR y x; apply : fR 
+File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
+Warning: Tactic could not be properly discharged: by
+move  =>fR y x yD xD; apply : fR 
+File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
+Warning: Tactic could not be properly discharged: by
+move  =>fR y x yD xD; apply : fR 
+File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
+Warning: Tactic could not be properly discharged: by
+move  =>fR y x yD xD; apply : fR 
+File "./theories/ssr/ssrbool.v", line 2315, characters 0-25:
+Warning: Tactic could not be properly discharged: by
+move  =>fR y x yD xD; apply : fR 
+File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
+Warning: Tactic could not be properly discharged: by
+move  =>fgK x xaD; apply : fgK 
+File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
+Warning: Tactic could not be properly discharged: by
+move  =>fgK x xrD xaD; apply : fgK 
+File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
+Warning: Tactic could not be properly discharged: by
+move  =>fgK x xrD xaD; apply : fgK 
+File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
+Warning: Tactic could not be properly discharged: by
+move  =>mem_g fgK x; apply : fgK 
+File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
+Warning: Tactic could not be properly discharged: by
+move  =>mem_g fgK x x_rD; apply /fgK/mem_g 
+File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
+Warning: Tactic could not be properly discharged: by
+move  =>mem_g fgK x x_rD; apply /fgK/mem_g 
+File "./theories/ssr/ssrbool.v", line 2348, characters 0-13:
+Warning: Tactic could not be properly discharged: by
+move  =>mem_g fgK x; apply /fgK 
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fD fK gI x x_rD gx_aD; apply : gI ; rewrite ?inE ?fK ?fD
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fK gI x gx_aD; apply : gI ; rewrite ?inE ?fK
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fK gI x gx_aD; apply : gI ; rewrite ?inE ?fK
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
+File "./theories/ssr/ssrbool.v", line 2373, characters 0-22:
+Warning: Tactic could not be properly discharged: by
+move  =>fgD fK gI x x_rD; apply : gI ; rewrite ?fK ?fgD
 File "./theories/Lists/List.v", line 2086, characters 0-12:
 Warning: Tactic could not be properly discharged: now
 intros a l m ? H b [<-| ]; [  | apply H ]
