@@ -3,5 +3,5 @@
 ------------------ Benchmark terminated -----------------------
 
 Fatal benchmarking error: ((rpc_error (Connection_closed ("EOF or connection closed")))
- (connection_description ("Client connected via TCP" (a7c5630f63b8 34027)))
+ (connection_description ("Client connected via TCP" (bc04b91bc487 42323)))
  (rpc_name rpc_parallel_piped_5) (rpc_version 0))
