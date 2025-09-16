@@ -43,11 +43,6 @@ Tactic could not be properly discharged: match goal with
                                            |- _ =>
                                                rewrite (eval_null_zero _ _ H)
                                          end
-File "./theories/FSets/FSetEqProperties.v", line 518, characters 0-45:
-Warning:
-Benchmarking error: Anomaly
-                    "File "src/ltacrecord.ml", line 573, characters 61-67: Assertion failed."
-Please report at http://coq.inria.fr/bugs/.
 File "./theories/FSets/FMapAVL.v", line 1555, characters 0-8:
 Warning:
 Tactic could not be properly discharged: match goal with
@@ -252,6 +247,53 @@ Tactic could not be properly discharged: match goal with
                                                  (m = None -> p = None));
                                                 [  | intuition ]
                                          end
+File "./theories/FSets/FMapFacts.v", line 1770, characters 1-9:
+Warning:
+Tactic could not be properly discharged: assert (~ In k m0) by
+                                          (intros (e0, He0); apply (Hm0 k e0);
+                                            auto)
+File "./theories/Lists/SetoidList.v", line 314, characters 0-11:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | H4:eqA x ?x'
+                                           |- InA ?x' _ => rewrite <- H4, H2
+                                         end
+File "./theories/Lists/SetoidList.v", line 314, characters 0-11:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | H1:NoDupA (l ++ x :: l')
+                                           |- _ =>
+                                               pose proof (IHl _ _ H1) as H2
+                                         end
+File "./theories/Lists/SetoidList.v", line 314, characters 0-11:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | H0:~ InA a (l ++ x :: l')
+                                           |- _ => apply H0
+                                         end
+File "./theories/FSets/FSetBridge.v", line 411, characters 4-80:
+Warning:
+Benchmarking error: Anomaly
+                    "File "src/ltacrecord.ml", line 573, characters 61-67: Assertion failed."
+Please report at http://coq.inria.fr/bugs/.
+File "./theories/micromega/EnvRing.v", line 1035, characters 1-11:
+Warning:
+Tactic could not be properly discharged: rewrite ?subst_l_ok, ?Pmul_ok, ?IHp
+File "./theories/micromega/EnvRing.v", line 1113, characters 1-20:
+Warning: Tactic could not be properly discharged: now
+rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
+File "./theories/micromega/EnvRing.v", line 1113, characters 1-20:
+Warning: Tactic could not be properly discharged: now
+rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
+File "./theories/micromega/EnvRing.v", line 1115, characters 0-16:
+Warning:
+Tactic could not be properly discharged: rewrite ?subst_l_ok, ?Pmul_ok, ?IHp
+File "./theories/micromega/EnvRing.v", line 1115, characters 0-16:
+Warning: Tactic could not be properly discharged: now
+rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
+File "./theories/micromega/EnvRing.v", line 1115, characters 0-16:
+Warning: Tactic could not be properly discharged: now
+rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
 File "./theories/micromega/Tauto.v", line 1195, characters 4-20:
 Warning: Tactic could not be properly discharged: rewrite <- ?IHf
 File "./theories/micromega/Tauto.v", line 1198, characters 2-15:
@@ -284,84 +326,42 @@ Tactic could not be properly discharged: let rec is_X t :=
                                           end
                                          in
                                          is_X ltac:(t0)
-File "./theories/FSets/FMapFacts.v", line 1770, characters 1-9:
-Warning:
-Tactic could not be properly discharged: assert (~ In k m0) by
-                                          (intros (e0, He0); apply (Hm0 k e0);
-                                            auto)
-File "./theories/Lists/SetoidList.v", line 314, characters 0-11:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | H4:eqA x ?x'
-                                           |- InA ?x' _ => rewrite <- H4, H2
-                                         end
-File "./theories/Lists/SetoidList.v", line 314, characters 0-11:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | H1:NoDupA (l ++ x :: l')
-                                           |- _ =>
-                                               pose proof (IHl _ _ H1) as H2
-                                         end
-File "./theories/Lists/SetoidList.v", line 314, characters 0-11:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | H0:~ InA a (l ++ x :: l')
-                                           |- _ => apply H0
-                                         end
 File "./theories/Sorting/Permutation.v", line 437, characters 2-95:
 Warning:
 Tactician detected a printing/parsing problem for the following tactic. injection Heqm as [=? ?] Please report.
 File "./theories/Sorting/Permutation.v", line 437, characters 2-95:
 Warning:
 Tactician detected a printing/parsing problem for the following tactic. injection Heqm as [=? ?] Please report.
-File "./theories/micromega/EnvRing.v", line 1035, characters 1-11:
-Warning:
-Tactic could not be properly discharged: rewrite ?subst_l_ok, ?Pmul_ok, ?IHp
-File "./theories/micromega/EnvRing.v", line 1113, characters 1-20:
-Warning: Tactic could not be properly discharged: now
-rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
-File "./theories/micromega/EnvRing.v", line 1113, characters 1-20:
-Warning: Tactic could not be properly discharged: now
-rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
-File "./theories/micromega/EnvRing.v", line 1115, characters 0-16:
-Warning:
-Tactic could not be properly discharged: rewrite ?subst_l_ok, ?Pmul_ok, ?IHp
-File "./theories/micromega/EnvRing.v", line 1115, characters 0-16:
-Warning: Tactic could not be properly discharged: now
-rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
-File "./theories/micromega/EnvRing.v", line 1115, characters 0-16:
-Warning: Tactic could not be properly discharged: now
-rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
-File "./theories/MSets/MSetList.v", line 811, characters 2-19:
-Warning:
-Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
 File "./theories/setoid_ring/Ring_polynom.v", line 1002, characters 1-11:
 Warning:
 Tactic could not be properly discharged: rewrite ?subst_l_ok, ?Pmul_ok, ?IHp
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
+File "./theories/MSets/MSetList.v", line 811, characters 2-19:
+Warning:
+Tactic could not be properly discharged: rewrite ?InA_cons, ?Hrec, ?Hrec'
 File "./theories/Lists/SetoidList.v", line 380, characters 0-15:
 Warning:
 Tactic could not be properly discharged: match goal with
@@ -378,49 +378,19 @@ Tactic could not be properly discharged: match goal with
                                          | H0:~ (InA y l1 \/ InA y l2)
                                            |- _ => elim H0
                                          end
-File "./theories/micromega/Tauto.v", line 2080, characters 0-6:
-Warning: Tactic could not be properly discharged: rewrite <- ?IHf
-File "./theories/micromega/Tauto.v", line 2080, characters 0-6:
-Warning:
-Tactic could not be properly discharged: let rec is_X t :=
-                                          match goal with
-                                          | |- context [ 
-                                            is_X (AF:=_) ] =>
-                                                let f := fresh "EQ" in
-                                                destruct 
-                                                 (is_X (AF:=X))
-                                                 as [t| ] eqn:f;
-                                                 [ apply is_X_inv in f |  ]
-                                          end
-                                         in
-                                         is_X ltac:(t)
-File "./theories/micromega/Tauto.v", line 2080, characters 0-6:
-Warning:
-Tactic could not be properly discharged: let rec is_X t :=
-                                          match goal with
-                                          | |- context [ 
-                                            is_X (AF:=_) ] =>
-                                                let f := fresh "EQ" in
-                                                destruct 
-                                                 (is_X (AF:=X))
-                                                 as [t| ] eqn:f;
-                                                 [ apply is_X_inv in f |  ]
-                                          end
-                                         in
-                                         is_X ltac:(t0)
 File "./theories/setoid_ring/BinList.v", line 82, characters 0-16:
 Warning: Tactic could not be properly discharged: now rewrite ?IHj
+File "./theories/setoid_ring/Ring_polynom.v", line 1095, characters 1-20:
+Warning: Tactic could not be properly discharged: now
+rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
+File "./theories/setoid_ring/Ring_polynom.v", line 1095, characters 1-20:
+Warning: Tactic could not be properly discharged: now
+rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
 File "./theories/setoid_ring/Field_theory.v", line 1614, characters 0-16:
 Warning:
 Tactic could not be properly discharged: repeat
                                           (case ceqb_spec; intro H;
                                             try rewrite H; clear H)
-File "./theories/setoid_ring/Ring_polynom.v", line 1095, characters 1-20:
-Warning: Tactic could not be properly discharged: now
-rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
-File "./theories/setoid_ring/Ring_polynom.v", line 1095, characters 1-20:
-Warning: Tactic could not be properly discharged: now
-rewrite ?IHp, ?IHpe, ?Pms_ok, ?Pmul_ok
 File "./theories/setoid_ring/Field_theory.v", line 1638, characters 0-17:
 Warning:
 Tactic could not be properly discharged: repeat
@@ -978,6 +948,42 @@ Tactic could not be properly discharged: let rec uneval :=
                                            end
                                          in
                                          uneval
+File "./theories/micromega/Tauto.v", line 2080, characters 0-6:
+Warning: Tactic could not be properly discharged: rewrite <- ?IHf
+File "./theories/micromega/Tauto.v", line 2080, characters 0-6:
+Warning:
+Tactic could not be properly discharged: let rec is_X t :=
+                                          match goal with
+                                          | |- context [ 
+                                            is_X (AF:=_) ] =>
+                                                let f := fresh "EQ" in
+                                                destruct 
+                                                 (is_X (AF:=X))
+                                                 as [t| ] eqn:f;
+                                                 [ apply is_X_inv in f |  ]
+                                          end
+                                         in
+                                         is_X ltac:(t)
+File "./theories/micromega/Tauto.v", line 2080, characters 0-6:
+Warning:
+Tactic could not be properly discharged: let rec is_X t :=
+                                          match goal with
+                                          | |- context [ 
+                                            is_X (AF:=_) ] =>
+                                                let f := fresh "EQ" in
+                                                destruct 
+                                                 (is_X (AF:=X))
+                                                 as [t| ] eqn:f;
+                                                 [ apply is_X_inv in f |  ]
+                                          end
+                                         in
+                                         is_X ltac:(t0)
+File "./theories/Structures/OrderedType.v", line 493, characters 1-9:
+Warning:
+Tactic could not be properly discharged: match goal with
+                                         | H:lt _ _, H1:eq _ _
+                                           |- _ => exact (lt_not_eq H H1)
+                                         end
 File "./theories/Lists/SetoidList.v", line 533, characters 0-26:
 Warning:
 Tactic could not be properly discharged: match goal with
@@ -985,12 +991,6 @@ Tactic could not be properly discharged: match goal with
                                            |- R a x =>
                                                rewrite Forall_forall in H0;
                                                 apply H0
-                                         end
-File "./theories/Structures/OrderedType.v", line 493, characters 1-9:
-Warning:
-Tactic could not be properly discharged: match goal with
-                                         | H:lt _ _, H1:eq _ _
-                                           |- _ => exact (lt_not_eq H H1)
                                          end
 File "./theories/Lists/SetoidList.v", line 564, characters 0-9:
 Warning:
@@ -1346,18 +1346,6 @@ split => haveP; split => x; case : (haveP x)
 File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
 Warning: Tactic could not be properly discharged: by
 split => haveP; split => x; case : (haveP x) 
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
-File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
-Warning: Tactic could not be properly discharged: by
-split => haveP; split => x; case : (haveP x) 
 File "./theories/ssr/ssrbool.v", line 649, characters 0-11:
 Warning: Tactic could not be properly discharged: by
 case  def_b: b ; constructor; rewrite ?def_b
@@ -1373,6 +1361,18 @@ move  =>Qb; split => ?; [ apply : appP  | apply : elimT ; case : Qb  ]
 File "./theories/ssr/ssrbool.v", line 760, characters 0-12:
 Warning: Tactic could not be properly discharged: by
 case  def_b: b / Pb ; constructor; rewrite ?def_b
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
+File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
+Warning: Tactic could not be properly discharged: by
+split => haveP; split => x; case : (haveP x) 
 File "./theories/ssr/ssrbool.v", line 897, characters 0-11:
 Warning: Tactic could not be properly discharged: by
 split => haveP; split => x; case : (haveP x) 
@@ -1587,9 +1587,6 @@ split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
 File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
 Warning: Tactic could not be properly discharged: by
 split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
-File "./theories/Lists/List.v", line 2086, characters 0-12:
-Warning: Tactic could not be properly discharged: now
-intros a l m ? H b [<-| ]; [  | apply H ]
 File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
 Warning: Tactic could not be properly discharged: by
 move  =>allP x /sub1; apply : allP 
@@ -1704,6 +1701,9 @@ move  =>fD2 fD1 ?; apply : fD1
 File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
 Warning: Tactic could not be properly discharged: by
 move  =>fD2 fD1 ? ?; apply : fD1 
+File "./theories/Lists/List.v", line 2086, characters 0-12:
+Warning: Tactic could not be properly discharged: now
+intros a l m ? H b [<-| ]; [  | apply H ]
 File "./theories/ssr/ssrbool.v", line 1771, characters 0-8:
 Warning: Tactic could not be properly discharged: by
 move  =>x y /sym_left_transitive Rxy z; rewrite !(symR z) Rxy
@@ -1845,9 +1845,6 @@ intros a l m ? H b [<-| ]; [  | apply H ]
 File "./theories/Lists/List.v", line 2086, characters 0-12:
 Warning: Tactic could not be properly discharged: now
 intros a l m ? H b [<-| ]; [  | apply H ]
-File "./theories/Lists/List.v", line 2086, characters 0-12:
-Warning: Tactic could not be properly discharged: now
-intros a l m ? H b [<-| ]; [  | apply H ]
 File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
 Warning: Tactic could not be properly discharged: by
 move  =>symR x y; apply /idP/idP ; apply : symR 
@@ -1863,6 +1860,9 @@ split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
 File "./theories/ssr/ssrbool.v", line 1785, characters 0-23:
 Warning: Tactic could not be properly discharged: by
 split => [x|x y Rxy z]; [ rewrite (eqiR x x x) | rewrite (eqiR x y z) ]
+File "./theories/Lists/List.v", line 2086, characters 0-12:
+Warning: Tactic could not be properly discharged: now
+intros a l m ? H b [<-| ]; [  | apply H ]
 File "./theories/ssr/ssrbool.v", line 2066, characters 0-16:
 Warning: Tactic could not be properly discharged: by
 move  =>allP x /sub1; apply : allP 
